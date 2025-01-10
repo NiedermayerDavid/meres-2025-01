@@ -8,14 +8,14 @@ package kalapacsvetes;
  *
  * @author nidid
  */
-public class sportolo {
+public class Sportolo {
     private double eredmeny;
     private String nev;
     private String orszagKod;
     private String helyszin;
     private String datum;
 
-    public sportolo(String sor) {
+    public Sportolo(String sor) {
         String[] adatok = sor.split(";");
         this.eredmeny = Double.parseDouble(adatok[1]);
         this.nev = adatok[2];
